@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Builds
+dist/
+build/
+.out/
+.next/
+
+# Prisma
+/generated/
+/prisma/migrations/dev.db
+/prisma/migrations/dev.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# Tests
+coverage/
+.nyc_output/
+
+# Divers
+.DS_Store
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Debug
+debug
+*.pid
+
+# OS
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor
+*.sublime-*
+*.code-workspace
+
+# Temp
+tmp/
+temp/
